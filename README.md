@@ -77,6 +77,8 @@ cd GranaGo
 
 ### 2. Configuração do Backend
 
+- Bake-end-finaças: [back-end]([https://github.com/AlbericoJr](https://github.com/AlbericoJr/backend-financas))
+
 ```bash
 cd backend-financas
 
