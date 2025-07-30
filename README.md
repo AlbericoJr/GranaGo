@@ -128,7 +128,7 @@ Home:
 Informação:
 ![Home-Informação](mobile/src/assets/Screenshots/Home-Informacao.png)
 Drawer:
-![Menu](GranaGo-mobmobile/Screenshots/Drawer.png)
+![Menu](mobile/src/assets/Screenshots/Drawer.png)
 Registro:
 ![Registro](mobile/src/assets/Screenshots/register.png)
 Perfil:
