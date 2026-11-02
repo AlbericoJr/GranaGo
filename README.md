@@ -71,13 +71,13 @@ GranaGo/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/GranaGo.git
+git clone https://github.com/AlbericoJr/GranaGo.git
 cd GranaGo
 ```
 
 ### 2. Configuração do Backend
 
-- Bake-end-finaças: [back-end](https://github.com/AlbericoJr](https://github.com/AlbericoJr/backend-financas)
+- Bake-end-finaças: [backend-financas](https://github.com/AlbericoJr/backend-financas)
 
 ```bash
 cd backend-financas
@@ -152,8 +152,8 @@ npm run prisma:studio # Abre interface do Prisma Studio
 
 ```bash
 npx expo start       # Inicia o servidor de desenvolvimento
-npx expo build       # Gera build de produção
-npx expo publish     # Publica no Expo
+npx eas-cli build    # Build via EAS (requer configuração do projeto)
+npx eas-cli update   # Atualização OTA via EAS (requer configuração)
 ```
 
 ## 📊 Banco de Dados
@@ -212,3 +212,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 ⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
+
+
+## 🔐 Segurança e execução
+
+Não publique credenciais JWT, senhas, bancos locais com dados reais ou arquivos `.env`. Verifique as variáveis de ambiente exigidas pelo backend e use dados de teste. Os comandos EAS dependem de configuração e conta Expo; valide antes de distribuir builds.
